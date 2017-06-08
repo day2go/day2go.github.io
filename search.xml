@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[学习 Kotlin 的 20 个实用资源]]></title>
       <url>/2017/06/08/kotlin01/</url>
-      <content type="html"><![CDATA[<p><img src="https://static.oschina.net/uploads/space/2017/0607/163204_dPQb_2903254.png" alt="img"></p>
+      <content type="html"><![CDATA[<p><img src="/images/73678a21506d27b0d617ffaca43bd46662ac10ac.png" alt="img"></p>
 <p>Кotlin 是在 Java VM 上运行的现代编程语言，它的语法优雅，可与现有的 Java 库互操作。 在 2017 年 Google I/O 中，Android 团队宣布将 Kotlin 作为 Android 平台的官方编程语言。</p>
 <p>为了帮助你学习和了解 Kotlin ，本文整理出了 Kotlin 学习资源列表，当中没有任何付费课程或书籍，列表中的所有内容都是 100％ 免费。（含外境资源，请自备梯子）</p>
 <h2 id="一、教程类"><a href="#一、教程类" class="headerlink" title="一、教程类"></a><strong>一、教程类</strong></h2><h3 id="The-Kotlin-Website-Kotlin-官网"><a href="#The-Kotlin-Website-Kotlin-官网" class="headerlink" title="The Kotlin Website - Kotlin 官网"></a><strong>The Kotlin Website - Kotlin 官网</strong></h3><p>Kotlin 官方网站是学习 Kotlin 好去处。在<a href="https://kotlinlang.org/docs/reference/" target="_blank" rel="external">参考</a>部分，你可以找到该语言的所有概念和功能的深入解析文档。在<a href="https://kotlinlang.org/docs/tutorials/" target="_blank" rel="external">教程</a>部分有关于设置工作环境并使用编译器的实用分步指南。</p>
