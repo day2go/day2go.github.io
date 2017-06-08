@@ -12,6 +12,8 @@
     
     <title>
         
+            学习 Kotlin 的 20 个实用资源 | 
+        
         day2go
     </title>
 
@@ -34,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="day2go">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="day2go">
+    <meta name="keywords" content="day2go,kotlin">
 
     <!-- Site Verification -->
     
@@ -63,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://day2go.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="day2go">
+    <meta property="og:title" content="学习 Kotlin 的 20 个实用资源 | day2go">
     <meta property="og:image" content="/img/icon.png" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="kotlin"> 
 
+    
+        <meta property="article:published_time" content="6月 08, 2017" />
+        <meta property="article:modified_time" content="6月 08, 2017" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="day2go">
+    <meta name="twitter:title" content="学习 Kotlin 的 20 个实用资源 | day2go">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/icon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -79,35 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://day2go.github.io" />
+        <link rel="canonical" href="https://day2go.github.io/2017/06/08/kotlin01/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
+
+
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@type": "Website",
+    "@context": "https://schema.org",
+    "@type": "Article",
     "publisher": {
         "@type": "Organization",
         "name": "day2go",
         "logo": "/img/icon.png"
     },
-    "url": "https://day2go.github.io/index.html",
-    "image": {
-        "@type": "ImageObject",
-        "url": "/img/icon.png"
+    "author": {
+        "@type": "Person",
+        "name": "day2go",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/icon.png"
+        },
+        "description": "欢迎来到day2go的博客"
     },
+    "headline": "学习 Kotlin 的 20 个实用资源",
+    "url": "https://day2go.github.io/2017/06/08/kotlin01/index.html",
+    "datePublished": "6月 08, 2017",
+    "dateModified": "6月 08, 2017",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://day2go.github.io"
-    },
-    "description": "null"
+    }
 }
 </script>
-
-
 
 
     
@@ -299,231 +312,254 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
+                    <!-- Post TOC -->
+
     
-        <!-- Paradox Header -->
-        <!-- Daily pic -->
-<div class="mdl-card mdl-shadow--2dp daily-pic mdl-cell mdl-cell--8-col index-top-block">
-
-    <!-- Pic & Slogan -->
-    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/daily_pic.png)">
-        <p class="index-top-block-slogan"><a href="#">
-        
-            
-                欢迎来到day2go的博客
-            
-        
-        </a></p>
-    </div>
-
-    <!-- Avatar & Name -->
-    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-        <!-- Author Avatar -->
-        <div id="author-avatar">
-            <img src="/img/avatar.png" width="32px" height="32px" alt="avatar">
-        </div>
-        <div>
-            <strong>day2go</strong>
-        </div>
-    </div>
-</div>
-
-        <!-- Blog info -->
-<div class="mdl-card mdl-shadow--2dp something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop index-top-block">
-
-    <!-- Search -->
-    
-
-
-
-
-    <!-- Local -->
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
-        <label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
-            <i class="material-icons mdl-color-text--white" role="presentation">search</i>
-        </label>
-
-        <form autocomplete="off" id="search-form" class="mdl-textfield__expandable-holder">
-            <input type="text" id="search" class="form-control mdl-textfield__input search-input" name="q" results="0" placeholder=""/>
-            <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
-        </form>
-    </div>
-    <div id="local-search-result"></div>
-
-
-
-    <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
-        <a href="#" target="_blank">
-            <img src="/img/logo.png" alt="logo" />
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
         </a>
     </div>
+    -->
 
-    <!-- Infomation -->
-    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-        <!-- Blog Title -->
-        <div>
-            <strong>day2go</strong>
-        </div>
-        <div class="section-spacer"></div>
-
-        <!-- Pages -->
-        <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">view_carousel</i>
-            <span class="visuallyhidden">Pages</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
-            
-        </ul>
-
-        <!-- Menu -->
-        <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">more_vert</i>
-            <span class="visuallyhidden">show menu</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
-            
-
-            
-
-            
-                <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=day2go&url=https://day2go.github.io/&pic=&searchPic=false&style=simple" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到微博
-                    </li>
-                </a>
-            
-
-            
-                <a class="index_share-link" href="https://twitter.com/intent/tweet?text=day2go&url=https://day2go.github.io/&via=day2go" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到 Twitter
-                    </li>
-                </a>
-            
-
-            
-                <a class="index_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://day2go.github.io/index.html" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到 Facebook
-                    </li>
-                </a>
-            
-
-            
-                <a class="index_share-link" href="https://plus.google.com/share?url=https://day2go.github.io/" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到 Google+
-                    </li>
-                </a>
-            
-
-            
-
-            
-                <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=day2go&title=day2go&summary=null&pics=https://day2go.github.io/img/icon.png&url=https://day2go.github.io/" target="_blank">
-                    <li class="mdl-menu__item">
-                        分享到 QQ
-                    </li>
-                </a>
-            
-
-            
-        </ul>
-    </div>
-</div>
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
 
     
-    <div class="locate-thumbnail-symbol"></div>
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#一、教程类"><span class="post-toc-number">1.</span> <span class="post-toc-text">一、教程类</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#The-Kotlin-Website-Kotlin-官网"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">The Kotlin Website - Kotlin 官网</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Keddit-Learn-Kotlin-while-developing-an-Android-App-通过安卓-app-开发学习-Kotlin"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Keddit: Learn Kotlin while developing an Android App - 通过安卓 app 开发学习 Kotlin</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Antonio-Leiva’s-Blog-Antonio-Leiva-博客"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Antonio Leiva’s Blog - Antonio Leiva 博客</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Android-Announces-Support-for-Kotlin-Android-宣布对-Kotlin-的支持"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Android Announces Support for Kotlin - Android 宣布对 Kotlin 的支持</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Design-Patterns-implemented-in-Kotlin-在-Kotlin-中实现的-Design-Pattern"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">Design Patterns implemented in Kotlin - 在 Kotlin 中实现的 Design Pattern</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Learn-X-in-Y-minutes-学习-X-只需-Y-分钟"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">Learn X in Y minutes - 学习 X 只需 Y 分钟</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#The-Kotlin-Blog-Kotlin-官博"><span class="post-toc-number">1.7.</span> <span class="post-toc-text">The Kotlin Blog - Kotlin 官博</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Get-Started-with-Kotlin-on-Android-在-Android-上开始使用-Kotlin"><span class="post-toc-number">1.8.</span> <span class="post-toc-text">Get Started with Kotlin on Android - 在 Android 上开始使用 Kotlin</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#二、视频演讲类"><span class="post-toc-number">2.</span> <span class="post-toc-text">二、视频演讲类</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Introduction-to-Kotlin-Kotlin-介绍"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Introduction to Kotlin - Kotlin 介绍</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Life-is-Great-and-Everything-Will-Be-Ok-Kotlin-is-Here-明日胜于今，我用-Kotlin"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">Life is Great and Everything Will Be Ok, Kotlin is Here - 明日胜于今，我用 Kotlin</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Peter-Sommerhoff’s-Kotlin-Tutorials-Peter-Sommerhoff-教你学-Kotlin"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">Peter Sommerhoff’s Kotlin Tutorials - Peter Sommerhoff 教你学 Kotlin</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Better-Android-Development-with-Kotlin-amp-Gradle-使用-Kotlin＆Gradle-进行更好的-Android-开发"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">Better Android Development with Kotlin & Gradle - 使用 Kotlin＆Gradle 进行更好的 Android 开发</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Better-Android-Development-with-Kotlin-amp-Gradle-使用-Kotlin＆Gradle-进行更好的-Android-开发-1"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">Better Android Development with Kotlin & Gradle - 使用 Kotlin＆Gradle 进行更好的 Android 开发</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Android-Development-with-Kotlin-—-Jake-Wharton-用-Kotlin-进行-Android-开发"><span class="post-toc-number">2.6.</span> <span class="post-toc-text">Android Development with Kotlin — Jake Wharton - 用 Kotlin 进行 Android 开发</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#三、其他重要资源"><span class="post-toc-number">3.</span> <span class="post-toc-text">三、其他重要资源</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#From-Java-To-Kotlin-从-Java-到-Kotlin"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">From Java To Kotlin - 从 Java 到 Kotlin</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Kotlin-Educational-Plugin-Kotlin-教学插件"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Kotlin Educational Plugin - Kotlin 教学插件</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Kotlin-on-GitHub"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Kotlin on GitHub</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Kotlin-Android-Template-Kotlin-Android-模板"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">Kotlin Android Template - Kotlin Android 模板</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Awesome-Kotlin-不可错过的-Kotlin-资源列表"><span class="post-toc-number">3.5.</span> <span class="post-toc-text">Awesome Kotlin - 不可错过的 Kotlin 资源列表</span></a></li></ol></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+    
 
-    <!-- Pin on top -->
-    
-        
-    
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/06/08/kotlin01/">学习 Kotlin 的 20 个实用资源</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/06/08/kotlin01/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="day2go's avatar">
-            </div>
-            <div>
-                <strong>day2go</strong>
-                <span>6月 08, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/kotlin/">kotlin</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                学习 Kotlin 的 20 个实用资源
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>day2go</strong>
+        <span>6月 08, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACX0lEQVR42u3aQW7CQAwFUO5/6XZbqUr435NMI/qyQhSC3yxi1/br66OvFx4eHh4eHh4e3sN4r/h6c9P4M0ef/P3+LDY8PDy8Pbw29J/vHP7M8tEMY8PDw8PbyDt64B69zvFH4DeP+DI2PDw8vOfz2uDyI8DDw8P7D7y2fZCU4Hh4eHjP5yX/8K8niUf3WvDw8PBiXv4Q3/9663wPDw8PL+DVK01JUVu2gM8/U0eIh4eHdzMvfxDvAcziwcPDw/sr3lFAyc+ff7c9srZNjIeHh7efd46ZrVWt3LldRMDDw8PbyZu1GPIkkTQ12uOo27h4eHh4l/LaQjYa3rftg+XyGg8PD28/r1gGHQW9vq6ax4CHh4d3N29lUeDacM/vWSQqPDw8vJt5V7VT2xI8H5Xd0qXGw8PDW+bNiuxZ8d22jOuFAzw8PLyNvFnLoC3N2xK8Pho8PDy8m3n5EkC7aJUfwUpyinoteHh4eJfyzjFtApgtBFxLxcPDw7ub1xbWeUpoW8PtmK2Y7+Hh4eFdysuHWEkKya/8F+v0g4eHh7eRlxS1s6WBN+2D8g710hUeHh7ebbx6SB80LJK/5ktaUZx4eHh4D+CtMNomRdvauCAx4OHh4ZW8lbFWMc6PGxPnx1QnBjw8PLwbeLOH8iz0Nm0MjxIPDw9vC2+WDNYbwW1iiI4bDw8PbyNvNuBfCTeJIYfh4eHhPZnXjqZmzdzZ8eHh4eE9mZcU4nm4+fFtSgx4eHh4FzUj2rJ4hm+HXnh4eHj7eXkLYKWJ0H43P1w8PDy8nbzPu/Dw8PDw8PDw8B5wfQMirM5KvoK5dAAAAABJRU5ErkJggg==">
+    
+</ul>
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/kotlin/">kotlin</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=学习 Kotlin 的 20 个实用资源&url=https://day2go.github.io/2017/06/08/kotlin01/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=学习 Kotlin 的 20 个实用资源&url=https://day2go.github.io/2017/06/08/kotlin01/index.html&via=day2go" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://day2go.github.io/2017/06/08/kotlin01/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://day2go.github.io/2017/06/08/kotlin01/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=day2go&title=学习 Kotlin 的 20 个实用资源&summary=null&pics=https://day2go.github.io/img/icon.png&url=https://day2go.github.io/2017/06/08/kotlin01/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p><img src="https://static.oschina.net/uploads/space/2017/0607/163204_dPQb_2903254.png" alt="img"></p>
+<p>Кotlin 是在 Java VM 上运行的现代编程语言，它的语法优雅，可与现有的 Java 库互操作。 在 2017 年 Google I/O 中，Android 团队宣布将 Kotlin 作为 Android 平台的官方编程语言。</p>
+<p>为了帮助你学习和了解 Kotlin ，本文整理出了 Kotlin 学习资源列表，当中没有任何付费课程或书籍，列表中的所有内容都是 100％ 免费。（含外境资源，请自备梯子）</p>
+<h2 id="一、教程类"><a href="#一、教程类" class="headerlink" title="一、教程类"></a><strong>一、教程类</strong></h2><h3 id="The-Kotlin-Website-Kotlin-官网"><a href="#The-Kotlin-Website-Kotlin-官网" class="headerlink" title="The Kotlin Website - Kotlin 官网"></a><strong>The Kotlin Website - Kotlin 官网</strong></h3><p>Kotlin 官方网站是学习 Kotlin 好去处。在<a href="https://kotlinlang.org/docs/reference/" target="_blank" rel="external">参考</a>部分，你可以找到该语言的所有概念和功能的深入解析文档。在<a href="https://kotlinlang.org/docs/tutorials/" target="_blank" rel="external">教程</a>部分有关于设置工作环境并使用编译器的实用分步指南。</p>
+<p>这里还有个 <a href="https://try.kotlinlang.org/" target="_blank" rel="external">Kotlin 编译器</a>，是一个浏览器 APP，你可以在上面尝试使用这门语言。它能加载许多示例，包括 Koans 课程 — 这是目前熟悉 Kotlin 语法的最好方式。</p>
+<h3 id="Keddit-Learn-Kotlin-while-developing-an-Android-App-通过安卓-app-开发学习-Kotlin"><a href="#Keddit-Learn-Kotlin-while-developing-an-Android-App-通过安卓-app-开发学习-Kotlin" class="headerlink" title="Keddit: Learn Kotlin while developing an Android App - 通过安卓 app 开发学习 Kotlin"></a><strong>Keddit: Learn Kotlin while developing an Android App - 通过安卓 app 开发学习 Kotlin</strong></h3><p>这是由 Juan Ignacio Saravia 发表的系列作品，包含 11 个部分。他将 Kotlin 投入使用，构建了一个 Reddit 克隆版 app。该教程涵盖的主题内容广泛，从设置工作区到 API 的使用，甚至包括单元测试。</p>
+<h3 id="Antonio-Leiva’s-Blog-Antonio-Leiva-博客"><a href="#Antonio-Leiva’s-Blog-Antonio-Leiva-博客" class="headerlink" title="Antonio Leiva’s Blog - Antonio Leiva 博客"></a><strong>Antonio Leiva’s Blog - Antonio Leiva 博客</strong></h3><p>Antonio Leiva 的博客专注于 Kotlin 相关内容的发布。每周都会更新一些高质量的文章或教程，Kotlin 的高级开发者可以在其中了解到最新的 Kotlin 库以及各种实用技术。</p>
+<h3 id="Android-Announces-Support-for-Kotlin-Android-宣布对-Kotlin-的支持"><a href="#Android-Announces-Support-for-Kotlin-Android-宣布对-Kotlin-的支持" class="headerlink" title="Android Announces Support for Kotlin - Android 宣布对 Kotlin 的支持"></a><strong>Android Announces Support for Kotlin - Android 宣布对 Kotlin 的支持</strong></h3><p>Google 发表了官方博文，解释了为什么 Kotlin 能成为 Android 开发的第三官方语言。文章中简单介绍了 Kotlin 带来的一些优秀语法改进。</p>
+<h3 id="Design-Patterns-implemented-in-Kotlin-在-Kotlin-中实现的-Design-Pattern"><a href="#Design-Patterns-implemented-in-Kotlin-在-Kotlin-中实现的-Design-Pattern" class="headerlink" title="Design Patterns implemented in Kotlin - 在 Kotlin 中实现的 Design Pattern"></a><strong>Design Patterns implemented in Kotlin - 在 Kotlin 中实现的 Design Pattern</strong></h3><p>DariuszBaciński 创建了一个 GitHub repo，其中有在 Kotlin 中实现的常见设计模式，也有用其他语言编写的类似项目，包括 Java，Swift，JavaScript 和 PHP，如果你是其中一项语言的使用者，可以用它们作为参考点。</p>
+<h3 id="Learn-X-in-Y-minutes-学习-X-只需-Y-分钟"><a href="#Learn-X-in-Y-minutes-学习-X-只需-Y-分钟" class="headerlink" title="Learn X in Y minutes - 学习 X 只需 Y 分钟"></a><strong>Learn X in Y minutes - 学习 X 只需 Y 分钟</strong></h3><p>这是一个快速开发秘笈，里面有一些重要功能和特殊语法，能帮助你写出更好的 Kotlin 代码。文章中有列出关于类、循环、列表的使用介绍，也有经典编程问题的实现，如生成 Fibonacci 序列。</p>
+<h3 id="The-Kotlin-Blog-Kotlin-官博"><a href="#The-Kotlin-Blog-Kotlin-官博" class="headerlink" title="The Kotlin Blog - Kotlin 官博"></a><strong>The Kotlin Blog - Kotlin 官博</strong></h3><p>Kotlin 的官方博客由 JetBrains 的一位作者负责。你可以在这里找到所有与 Kotlin 相关的新闻、更新、教程、使用技巧等的内容。</p>
+<h3 id="Get-Started-with-Kotlin-on-Android-在-Android-上开始使用-Kotlin"><a href="#Get-Started-with-Kotlin-on-Android-在-Android-上开始使用-Kotlin" class="headerlink" title="Get Started with Kotlin on Android - 在 Android 上开始使用 Kotlin"></a><strong>Get Started with Kotlin on Android - 在 Android 上开始使用 Kotlin</strong></h3><p>一篇很牛叉的文章，向我们展示了如何使用 Kotlin 编写和运行 Android 应用程序的测试。 作者很好地解释了测试的不同类型，不同类型的使用场合，以及如何确保正确测试。 这个主题的另一个优秀教程可以在<a href="https://github.com/dbacinski/Android-Testing-With-Kotlin/blob/master/docs/Unit-Testing-Introduction.md" target="_blank" rel="external">这里</a>找到。</p>
+<h2 id="二、视频演讲类"><a href="#二、视频演讲类" class="headerlink" title="二、视频演讲类"></a><strong>二、视频演讲类</strong></h2><h3 id="Introduction-to-Kotlin-Kotlin-介绍"><a href="#Introduction-to-Kotlin-Kotlin-介绍" class="headerlink" title="Introduction to Kotlin - Kotlin 介绍"></a><strong>Introduction to Kotlin - Kotlin 介绍</strong></h3><p>来自 Google I / O 2017 的演讲，大会首次向人们介绍 Kotlin，并提出了改进工作流程的想法。它涵盖了许多基础知识，并展示了一些很酷的 Kotlin 技巧。</p>
+<h3 id="Life-is-Great-and-Everything-Will-Be-Ok-Kotlin-is-Here-明日胜于今，我用-Kotlin"><a href="#Life-is-Great-and-Everything-Will-Be-Ok-Kotlin-is-Here-明日胜于今，我用-Kotlin" class="headerlink" title="Life is Great and Everything Will Be Ok, Kotlin is Here - 明日胜于今，我用 Kotlin"></a><strong>Life is Great and Everything Will Be Ok, Kotlin is Here - 明日胜于今，我用 Kotlin</strong></h3><p>Google I / O 2017 大会关于 Kotlin 的第二个演讲。这个演讲涵盖了更多高级话题，如设计模式，最佳实践和其他常见规则。 演讲也揭示了在生产中使用 Kotlin 的意义，以及在工作中采用新兴语言将面临的挑战。</p>
+<h3 id="Peter-Sommerhoff’s-Kotlin-Tutorials-Peter-Sommerhoff-教你学-Kotlin"><a href="#Peter-Sommerhoff’s-Kotlin-Tutorials-Peter-Sommerhoff-教你学-Kotlin" class="headerlink" title="Peter Sommerhoff’s Kotlin Tutorials - Peter Sommerhoff 教你学 Kotlin"></a><strong>Peter Sommerhoff’s Kotlin Tutorials - Peter Sommerhoff 教你学 Kotlin</strong></h3><p>这是一个免费的 Kotlin 课程，适合初学者，前面介绍了从变量到条件循环和函数的所有基础知识，后面会深入到更高级的主题，如 Kotlin 中的面向对象以及像 lambda 表达式的功能编程。</p>
+<h3 id="Better-Android-Development-with-Kotlin-amp-Gradle-使用-Kotlin＆Gradle-进行更好的-Android-开发"><a href="#Better-Android-Development-with-Kotlin-amp-Gradle-使用-Kotlin＆Gradle-进行更好的-Android-开发" class="headerlink" title="Better Android Development with Kotlin &amp; Gradle - 使用 Kotlin＆Gradle 进行更好的 Android 开发"></a><strong>Better Android Development with Kotlin &amp; Gradle - 使用 Kotlin＆Gradle 进行更好的 Android 开发</strong></h3><p>这个讲座从 2016 年开始，它介绍了现实世界中的编程语言功能，你将了解到 Kotlin 是如何适应 Android 工作流程中存在的工具。</p>
+<h3 id="Better-Android-Development-with-Kotlin-amp-Gradle-使用-Kotlin＆Gradle-进行更好的-Android-开发-1"><a href="#Better-Android-Development-with-Kotlin-amp-Gradle-使用-Kotlin＆Gradle-进行更好的-Android-开发-1" class="headerlink" title="Better Android Development with Kotlin &amp; Gradle - 使用 Kotlin＆Gradle 进行更好的 Android 开发"></a><strong>Better Android Development with Kotlin &amp; Gradle - 使用 Kotlin＆Gradle 进行更好的 Android 开发</strong></h3><p>一个 8 分钟的浓缩教程，让你快速了解 Kotlin 的主要功能，如变量声明、Lambdas、扩展功能等等。</p>
+<h3 id="Android-Development-with-Kotlin-—-Jake-Wharton-用-Kotlin-进行-Android-开发"><a href="#Android-Development-with-Kotlin-—-Jake-Wharton-用-Kotlin-进行-Android-开发" class="headerlink" title="Android Development with Kotlin — Jake Wharton - 用 Kotlin 进行 Android 开发"></a><strong>Android Development with Kotlin — Jake Wharton - 用 Kotlin 进行 Android 开发</strong></h3><p>关于 Kotlin 的介绍，演讲向我们解释了新语言是如何改进 Android 生态系统的，并展示了许多炫酷的方式，我们可以使用智能的 Kotlin 语法来获得优势。</p>
+<h2 id="三、其他重要资源"><a href="#三、其他重要资源" class="headerlink" title="三、其他重要资源"></a><strong>三、其他重要资源</strong></h2><h3 id="From-Java-To-Kotlin-从-Java-到-Kotlin"><a href="#From-Java-To-Kotlin-从-Java-到-Kotlin" class="headerlink" title="From Java To Kotlin - 从 Java 到 Kotlin"></a><strong>From Java To Kotlin - 从 Java 到 Kotlin</strong></h3><p>实用的快速提醒列表工具包含了一些简短的代码块，藉由这个来帮助你快速找到通用 Java 操作符、功能以及声明的 Kotlin 替代方案。</p>
+<h3 id="Kotlin-Educational-Plugin-Kotlin-教学插件"><a href="#Kotlin-Educational-Plugin-Kotlin-教学插件" class="headerlink" title="Kotlin Educational Plugin - Kotlin 教学插件"></a><strong>Kotlin Educational Plugin - Kotlin 教学插件</strong></h3><p>用于 IntelliJ IDEa 的插件，可让你在本地离线环境下使用 Koans 课程。</p>
+<h3 id="Kotlin-on-GitHub"><a href="#Kotlin-on-GitHub" class="headerlink" title="Kotlin on GitHub"></a><strong>Kotlin on GitHub</strong></h3><p>Kotlin 于 2012 年开源，你可以对该语言进行贡献。</p>
+<h3 id="Kotlin-Android-Template-Kotlin-Android-模板"><a href="#Kotlin-Android-Template-Kotlin-Android-模板" class="headerlink" title="Kotlin Android Template - Kotlin Android 模板"></a><strong>Kotlin Android Template - Kotlin Android 模板</strong></h3><p>Android 项目模板，使其非常容易设置稳定的 Kotlin 工作区，并快速引导你开发应用程序。</p>
+<h3 id="Awesome-Kotlin-不可错过的-Kotlin-资源列表"><a href="#Awesome-Kotlin-不可错过的-Kotlin-资源列表" class="headerlink" title="Awesome Kotlin - 不可错过的 Kotlin 资源列表"></a><strong>Awesome Kotlin - 不可错过的 Kotlin 资源列表</strong></h3><p>这是一个比较完整的 Kotlin 资源列表，包括各种实用链接、书籍、库、框架和视频等。该列表的组织结构完善，<a href="https://kotlin.link/" target="_blank" rel="external">kotlin.link</a> 也提供了一个风格化的版本。</p>
+<p>编译自：<a href="https://tutorialzine.com/2017/05/20-excellent-resources-for-learning-kotlin" target="_blank" rel="external">20 Excellent Resources for Learning Kotlin</a></p>
+<p>译者：<a href="https://www.oschina.net/" target="_blank" rel="external">开源中国</a> - <a href="https://my.oschina.net/u/2903254/home" target="_blank" rel="external">达尔文</a></p>
+<p>链接：<a href="https://my.oschina.net/editorial-story/blog/916508" target="_blank" rel="external">https://my.oschina.net/editorial-story/blog/916508</a></p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -831,112 +867,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-
-    <!-- Swiftye -->
-    
-
-    <!-- Local Search-->
-    
-        <script type="text/ls-javascript" id="search-local-js-script">
-    var searchFunc = function(path, search_id, content_id) {
-        'use strict';
-        $.ajax({
-            url: path,
-            dataType: 'xml',
-            success: function( xmlResponse ) {
-                // get the contents from search data
-                var datas = $( 'entry', xmlResponse ).map(function() {
-                    return {
-                        title: $( 'title', this ).text(),
-                        content: $('content',this).text(),
-                        url: $( 'url' , this).text()
-                    };
-                }).get();
-                var $input = document.getElementById(search_id);
-                var $resultContent = document.getElementById(content_id);
-                $input.addEventListener('input', function() {
-                    var str='<ul class=\"search-result-list\">';
-                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                    $resultContent.innerHTML = '';
-                    if (this.value.trim().length <= 0) {
-                        return;
-                    }
-                    // perform local searching
-                    datas.forEach(function(data) {
-                        var isMatch = true;
-                        var content_index = [];
-                        var data_title = data.title.trim().toLowerCase();
-                        var data_content = data.content.trim().replace(/<[^>]+>/g,'').toLowerCase();
-                        var data_url = data.url;
-                        var index_title = -1;
-                        var index_content = -1;
-                        var first_occur = -1;
-                        // only match artiles with not empty titles and contents
-                        if(data_title !== '' && data_content !== '') {
-                            keywords.forEach(function(keyword, i) {
-                                index_title = data_title.indexOf(keyword);
-                                index_content = data_content.indexOf(keyword);
-                                if( index_title < 0 && index_content < 0 ) {
-                                    isMatch = false;
-                                } else {
-                                    if (index_content < 0) {
-                                        index_content = 0;
-                                    }
-                                    if (i === 0) {
-                                        first_occur = index_content;
-                                    }
-                                }
-                            });
-                        }
-                        // show search results
-                        if (isMatch) {
-                            str += '<li><a href="'+ data_url +'" class="search-result-title" target="_blank">'+ data_title;
-                            var content = data.content.trim().replace(/<[^>]+>/g, '');
-                            if (first_occur >= 0) {
-                                // cut out characters
-                                var start = first_occur - 6;
-                                var end = first_occur + 6;
-                                if (start < 0) {
-                                    start = 0;
-                                }
-                                if (start === 0) {
-                                    end = 10;
-                                }
-                                if (end > content.length) {
-                                    end = content.length;
-                                }
-                                var match_content = content.substr(start, end);
-                                // highlight all keywords
-                                keywords.forEach(function(keyword) {
-                                    var regS = new RegExp(keyword, 'gi');
-                                    match_content = match_content.replace(regS, '<em class="search-keyword">'+keyword+'</em>');
-                                })
-                                str += '<p class="search-result">' + match_content + '...</p>' +'</a>';
-                            }
-                        }
-                    });
-                    $resultContent.innerHTML = str;
-                });
-            }
-        });
-    }
-</script>
-
-
-        <script type="text/ls-javascript" id="search-input-script">
-            var inputArea = document.querySelector('#search');
-            var getSearchFile = function() {
-                var path = 'search.xml';
-                searchFunc(path, 'search', 'local-search-result');
-            }
-
-            if(inputArea) {
-                inputArea.onfocus = function() {
-                    getSearchFile();
-                }
-            }
-        </script>
-    
 
 
 <!-- UC Browser Compatible -->
