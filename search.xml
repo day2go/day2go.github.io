@@ -3,6 +3,76 @@
   
     
     <entry>
+      <title><![CDATA[超实用 Andorid 开发实例]]></title>
+      <url>/2017/06/12/android-1/</url>
+      <content type="html"><![CDATA[<p><strong>1、项目名称： </strong>开源中国 Android 客户端</p>
+<p><strong>项目简介：</strong>这是 OSCHINA 官方开发的 Android 客户端软件，采用原生 API 开发，非 HTML 模式。</p>
+<p><img src="/images/07a7d6140502e31a856f5aede6bf092425bada72.jpg" alt="开源中国 Android 客户端"></p>
+<p><strong>项目地址：</strong><a href="https://git.oschina.net/oschina/android-app" target="_blank" rel="external">https://git.oschina.net/oschina/android-app</a></p>
+<p><strong>2、项目名称：  Android 自定义控件</strong></p>
+<p><strong>项目简介：</strong>这是一个集成目前 Android 主流优秀第三方组件、优秀好用的自定义控件、实用工具类封装、以及一些 APP 共通模块（比如：版本更新、意见反馈、引导界面等等）的开发包，帮助程序员快速开发自己的 APP。</p>
+<p><img src="/images/49fa1c2faf2848f96946251300495523066facd4.jpg" alt="Android架构图"></p>
+<p><strong>项目地址：</strong><a href="https://git.oschina.net/zftlive/zftlive" target="_blank" rel="external">https://git.oschina.net/zftlive/zftlive</a></p>
+<p><strong>3、项目名称：韦驮天视频 APP 客户端 </strong></p>
+<p><strong>项目简介：</strong>韦驮天视频的 Android App，一款视频应用 APP，界面仿 bilibili，有后端。</p>
+<p>通过对收集到用户对该系统的功能基本需求进行整理综合，本系统可以有两种用户类型：普通会员和管理员。普通会员具有观看视频，上传视频，空间展示，个人资料，发布评论，收藏视频，历史记录等模块。管理员主要功能是权限管理，视频审核。</p>
+<p><img src="/images/7888c981c2d3495dd78d164092ae475257b49e78.jpg" alt="视频截图"></p>
+<p><strong>用例图：</strong></p>
+<p><img src="/images/4d0ea9b1575b4e805961691a36269539fbfecea9.png" alt="用例图"></p>
+<p><strong>项目地址：</strong><a href="https://git.oschina.net/weituotian/WeituotianVideoAndroidApp" target="_blank" rel="external">https://git.oschina.net/weituotian/WeituotianVideoAndroidApp</a></p>
+<p><strong>4、项目名称：基于极光推送的手机聊天系统</strong></p>
+<p><strong>项目简介：</strong>推聊是一个基于极光推送 ( JPush ) 的手机聊天系统。支持群聊与点对点聊天。当前包括 Android 客户端、iOS 客户端与 Java 服务器端。</p>
+<p><strong>功能列表：</strong></p>
+<ul>
+<li>频道里群聊；</li>
+<li>与其他用户点对点聊天；</li>
+<li>聊天支持文字、表情、URL等；</li>
+<li>注册用户（不需要密码）；</li>
+<li>创建频道、加入频道；</li>
+<li>我的最近聊天、我的频道；</li>
+<li>聊天记录缓存（在服务器端）；</li>
+<li>客户端选择聊天服务器、添加聊天服务器。</li>
+</ul>
+<p><strong>项目地址：</strong><a href="https://git.oschina.net/jpush/PushTalk" target="_blank" rel="external">https://git.oschina.net/jpush/PushTalk</a></p>
+<p><strong>5、项目名称：心情记事本 App</strong></p>
+<p><strong>项目简介：</strong>用心情记事，留住美好时光。App 提供了很多好看实用的心情、天气、活动、主题标签，可以同时存储文字、照片、地点、语音，更有人性化的界面操作。</p>
+<p><strong>使用场景：</strong></p>
+<ul>
+<li>记录您突然的想法</li>
+<li>记录一些备忘内容</li>
+<li>记录美好旅行</li>
+<li>记录一些小秘密</li>
+<li>记录和朋友一起走过的美好回忆</li>
+<li>记录宝宝的成长日记</li>
+<li>记录美食照片和地点</li>
+</ul>
+<p><strong>项目地址：</strong><a href="https://git.oschina.net/greatyao/v2ex-android" target="_blank" rel="external">https://git.oschina.net/greatyao/v2ex-android</a></p>
+<p><strong>6、项目名称： Andorid 小游戏—盒子与点</strong></p>
+<p><strong>项目简介：</strong>双方交替在两点之间画一条线，如果这条线是一个方框的最后一条边，则这个人占领这个格子，并获得一次额外的划线机会。最后谁占领的格子最多谁获得胜利。</p>
+<p><strong>单人模式 Single Mode：</strong></p>
+<p><img src="/images/59d2b9f57f2f846fa43c8c84c139e1a2cf4c63e5.png" alt="单人模式"></p>
+<p><strong>双人模式 Double Mode：</strong></p>
+<p><img src="/images/1ccdcd9d84e622f3a417fb8cbb7fe835550638dd.png" alt="双人模式"></p>
+<p><strong>项目地址：</strong><a href="https://git.oschina.net/wangzehao/DotsAndBoxes" target="_blank" rel="external">https://git.oschina.net/wangzehao/DotsAndBoxes</a></p>
+<p>链接：[<a href="https://git.oschina.net/wangzehao/DotsAndBoxes" target="_blank" rel="external">https://git.oschina.net/wangzehao/DotsAndBoxes</a>)</p>
+]]></content>
+      
+        <categories>
+            
+            <category> android </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[收集的一些实用的网址]]></title>
       <url>/2017/06/08/urls/</url>
       <content type="html"><![CDATA[<p><a href="https://tutorialzine.com/" target="_blank" rel="external">https://tutorialzine.com/</a><br>We are a community of talented developers who learn together. We have an ever-growing library of high-quality tutorials and articles that you can read completely for free!</p>
