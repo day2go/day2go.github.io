@@ -3,6 +3,28 @@
   
     
     <entry>
+      <title><![CDATA[QQ群杂记]]></title>
+      <url>/2017/06/13/rust-1/</url>
+      <content type="html"><![CDATA[<p>简单一点， self=（*this).   &amp;self = const this,  &amp;mut self = this</p>
+<p>Cell使用基本类型， Refcell适用所有</p>
+]]></content>
+      
+        <categories>
+            
+            <category> rust </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> rust </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[2017 年最佳开源网络监控工具]]></title>
       <url>/2017/06/13/nettools-1/</url>
       <content type="html"><![CDATA[<p>对开源软件的需求持续增长，网络管理工具已经适应了这一浪潮。你不再需要为可能不是你所需的软件支付小额的费用，请留意下（大部分）免费的开源工具，用来监控、配置和映射你的联网设备。</p>
