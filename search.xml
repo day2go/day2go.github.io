@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title><![CDATA[QQ群杂记]]></title>
+      <title><![CDATA[Rust QQ群杂记]]></title>
       <url>/2017/06/13/rust-1/</url>
       <content type="html"><![CDATA[<p>简单一点， self=（*this).   &amp;self = const this,  &amp;mut self = this</p>
 <p>Cell使用基本类型， Refcell适用所有</p>
